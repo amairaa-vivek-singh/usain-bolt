@@ -1,0 +1,180 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+h1 {
+  text-align: left;
+  font-size: 40px;
+  font-family: cursive;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+/* nav styles */
+nav {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+  background-color: #ffc145;
+  text-align: center;
+  box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
+}
+nav img {
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+  margin-top: 30px;
+}
+.headname {
+  font-size: 30px;
+  font-family: cursive;
+  text-align: center;
+  margin: 20px 0;
+}
+nav ul {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  width: 100%;
+  background-color: #5cb338;
+  line-height: 50px;
+}
+li {
+  color: whitesmoke;
+}
+/* inserts underline after the each selected list items */
+nav a:after {
+  border-radius: 1em;
+  border-top: 0.1em solid black;
+  content: "";
+  position: absolute;
+  right: 100%;
+  bottom: 0.14em;
+  left: 0;
+}
+
+/* Add hover effect */
+nav a:hover:after {
+  right: 0;
+}
+.main {
+  margin-left: 200px;
+}
+.home {
+  text-align: center;
+  margin-left: 50px;
+  background-color: #ece852;
+}
+.home img {
+  margin-top: 100px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
+}
+.home h1 {
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+  margin: 30px 0;
+}
+.home h3 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.home p {
+  font-family: "Titillium Web", sans-serif;
+  text-align: justify;
+  line-height: 30px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+/* About-me section */
+#about {
+  text-align: center;
+  margin-left: 50px;
+  background-color: #fb4141;
+  border: dotted 10px;
+  padding: 50px 0;
+}
+.about h1 {
+  text-align: center;
+}
+
+.about p {
+  font-family: "Titillium Web", sans-serif;
+  text-align: justify;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+/*///////////////////////// achievement styles /////////////////// */
+.achievement {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  background-color: #5cb338;
+  padding: 50px 0;
+}
+.achievement-details-div {
+  width: 90%;
+  height: 120px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.achievement-details-div img {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.achievement-details-div h3 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 26px;
+}
+.achievement-details-div p {
+  font-size: 16px;
+  margin-right: 10px;
+  font-family: "Varela Round", sans-serif;
+}
+.achievement h1 {
+  text-align: center;
+}
+/*///////////////////////// photo styles /////////////////// */
+.photo {
+  margin-left: 50px;
+  text-align: center;
+  background-color: #ffc145;
+}
+.photo img {
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+.photo h1 {
+  text-align: center;
+}
+footer p {
+  font-family: "Titillium Web", sans-serif;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-top: 200px;
+  text-align: right;
+}
